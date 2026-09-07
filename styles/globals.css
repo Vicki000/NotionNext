@@ -299,3 +299,14 @@ img {
   @keyframes l1 {
   0% {background-position: right}
 }
+
+/* 仅放大 Projects 页面/列表区域的 Category 和 Tag 标签字号 */
+#posts-wrapper .category-item,
+#posts-wrapper .tag-item,
+.category-list-wrapper a,
+.tag-list-wrapper a {
+  font-size: 1.5rem !important;   /* 相当于 H2 标题字号 (24px) */
+  font-weight: 700 !important;   /* 粗体 */
+  line-height: 2rem !important;  /* 行高自适应 */
+  padding: 8px 16px !important;  /* 稍微加大边距，让大号文字不挤 */
+}
